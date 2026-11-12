@@ -1,16 +1,58 @@
-# React + Vite
+# ERS - Eco Ruta Sostenible
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+ERS - Eco Ruta Sostenible es un prototipo funcional desarrollado para apoyar la gestión y coordinación de solicitudes de recolección de residuos aprovechables entre generadores y recicladores de oficio.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Router DOM
+- Supabase
+- PostgreSQL
 
-## React Compiler
+## Funcionalidades principales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Generador
+- Registro e inicio de sesión.
+- Creación de solicitudes de recolección.
+- Registro de material, cantidad y dirección.
+- Geolocalización de la solicitud.
+- Seguimiento del estado de la recolección.
+- Historial y kilogramos recolectados.
 
-## Expanding the Oxlint configuration
+### Reciclador
+- Visualización de solicitudes pendientes.
+- Aceptación de solicitudes.
+- Consulta de ubicación.
+- Inicio del recorrido.
+- Liberación de solicitudes.
+- Finalización de recolecciones.
+- Registro de kilogramos recolectados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Instalación
+
+1. Descargar o clonar el repositorio.
+
+2. Instalar las dependencias:
+
+npm install
+
+3. Configurar las variables de entorno de Supabase en un archivo `.env.local`.
+
+4. Ejecutar el proyecto:
+
+npm run dev
+
+5. Abrir en el navegador:
+
+http://localhost:5173
+
+## Proyecto académico
+
+Universidad Nacional Abierta y a Distancia - UNAD  
+Programa de Ingeniería de Sistemas  
+Curso: Proyecto de grado  
+Proyecto: ERS - Eco Ruta Sostenible
